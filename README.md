@@ -3,97 +3,84 @@
 <div align=center>
 <img src="https://github.com/user-attachments/assets/1e92ce1f-1f8e-40d5-ac0a-9d497701f345" alt="NINE MOVIE" width="600px"/>
         
-### [🍿 NINE MOVIE 바로가기 🍿](https://ninemovie.netlify.app/)
+### [🍿 NINE MOVIE Website 🍿](https://ninemovie.netlify.app/)
 </div>
 
 <br />
 
-## 스프린트 역할 분배
+## Sprint Role Allocation
 
-| 팀원                                     | 역할          |
-| ---------------------------------------- | ------------- |
-| 김하늘                                   | Product Owner |
-| [김현우](https://github.com/khwww)       | Scrum master  |
-| [송제혁](https://github.com/song2805)    | Developers    |
-| [이희정](https://github.com/victoryalhj) | Developers    |
-| [홍성숙](https://github.com/SSUK-H)      | Developers    |
+| Team Member                                  | Role                        |
+| ----------------------------------------     | --------------------------  |
+| [Hyun-woo Kim](https://github.com/khwww)     | Product Owner/Scrum master  |
+| [Je-hyeok Song](https://github.com/song2805) | Developers                  |
+| [Heejung Lee](https://github.com/victoryalhj)| Developers                  |
+| [Seong-sook Hong](https://github.com/SSUK-H) | Developers                  |
 
 <br />
 
-## 스프린트 주기
+## Sprint Schedule
 
-- **스프린트 기간**: 24.07.15 ~ 24.07.21 (1주)
-- **일일 스크럼**: 매일 PM 12:00 (10분)
+- **Sprint Duration**: 15.07.2024 ~ 24.07.2024 (1 Week)
+- **Daily Scrum**:  Every day at 12:00 PM (1 Hour)
 
 <br />
 
 ## Product Backlog
 
-| 팀원                                     | 담당 기능                                      |
-| ---------------------------------------- | ---------------------------------------------- |
-| 김하늘                                   | 사용자 로그인/회원가입 모달 기능               |
-| [이희정](https://github.com/victoryalhj) | 콘텐츠 검색 기능 및 결과 표시                  |
-| [송제혁](https://github.com/song2805)    | 슬라이드쇼 및 추천 콘텐츠 기능                 |
-| [김현우](https://github.com/khwww)       | 콘텐츠 상세 페이지(관련콘텐츠, 관련유튜브영상) |
-| [홍성숙](https://github.com/SSUK-H)      | 즐겨찾기 추가/삭제 기능 및 상태 관리           |
+| Team Member                                   | Assigned Feature                                         |
+| ----------------------------------------------| -------------------------------------------------------- |
+| [Heejung Lee](https://github.com/victoryalhj) | Content Search and Results Display                       |
+| [Je-hyeok Song](https://github.com/song2805)  | Slideshow and Recommended Content Feature                |
+| [Hyun-woo Kim](https://github.com/khwww)      | Content Detail Page (Related Content and YouTube Videos) |
+| [Seong-sook Hong](https://github.com/SSUK-H)  | Favorite Add/Remove Feature and State Management         |
 
 <br />
 
-### 사용 API
+### API
 
 - TMDB API: https://developer.themoviedb.org/docs/getting-started
 - YouTube Data API: https://developers.google.com/youtube/v3/docs?hl=ko
 
 <br />
 
-### 각 기능 세부 사항
+### Feature Details
 
-1. **사용자 로그인/회원가입 모달 기능**
-   - 로그인 폼과 회원가입 폼 구현
-   - 폼 유효성 검사 및 오류 메시지 표시
-2. **콘텐츠 검색 기능 및 결과 표시**
-   - 검색 입력 필드와 버튼 구현
-   - API 호출을 통한 검색 결과 표시
-3. **슬라이드쇼 및 추천 콘텐츠 기능**
-   - 슬라이드쇼 구현 (자동/수동 전환)
-   - 추천 콘텐츠 목록 표시
-4. **콘텐츠 상세 페이지 기능**
-   - 평점, 장르, 출연진 등 세부정보 표시
-   - 관련 콘텐츠(슬라이드), 관련 유튜브 영상 표시
-5. **즐겨찾기 추가/삭제 기능**
-   - 콘텐츠 즐겨찾기 버튼 구현
-   - 상태 저장 (로컬 스토리지 활용)
+**Contents Search and Results Display**
+   - Implement search input field and button
+   - Display search results through API calls
+3. **Slideshow and Recommended Content**
+   - Implement slideshow (automatic/manual transitions)
+   - Display list of recommended content
+4. **Content Detail Page**
+   - Show details like ratings, genres, cast
+   - Display related content (slideshow) and related YouTube videos
+5. **Favorite Add/Remove Feature**
+   - Implement favorite button for content
+   - Manage state using local storage
 
 <br />
 
 ## User Story
 
-1. **사용자 로그인**
-   - 사용자는 계정에 로그인할 수 있어야 한다.
-   - 로그인 시 올바른 사용자명과 비밀번호를 입력해야 한다.
-   - 로그인에 성공하면 메인 페이지로 이동해야 한다.
-2. **회원가입**
-   - 사용자는 새로운 계정을 생성할 수 있어야 한다.
-   - 필수 정보(이름, 이메일, 비밀번호)를 입력해야 한다.
-   - 회원가입 후 자동으로 로그인되어야 한다.
-3. **콘텐츠 검색**
-   - 사용자는 원하는 콘텐츠를 검색할 수 있어야 한다.
-   - 검색어를 입력하고 검색 버튼을 클릭해야 한다.
-   - 검색 결과는 해당 콘텐츠의 리스트로 표시되어야 한다.
-4. **슬라이드쇼 보기**
-   - 사용자는 추천 콘텐츠를 슬라이드쇼 형태로 볼 수 있어야 한다.
-   - 자동으로 넘어가는 슬라이드쇼와 사용자가 제어할 수 있는 버튼이 제공되어야 한다.
-5. **상세 페이지**
-   - 사용자는 선택한 콘텐츠 관련 세부정보를 확인할 수 있어야 한다.
-   - 사용자가 선택한 콘텐츠와 관련있는 콘텐츠를 슬라이드 형태로 볼 수 있어야 한다.
-   - 사용자가 선택한 콘텐츠와 관련있는 유튜브 영상을 확인/재생 할 수 있어야 한다.
-6. **즐겨찾기 관리**
-   - 사용자는 원하는 콘텐츠를 즐겨찾기에 추가할 수 있어야 한다.
-   - 즐겨찾기 목록에서 콘텐츠를 삭제할 수 있어야 한다.
-   - 즐겨찾기 상태는 로컬 스토리지에 저장되어 다시 접속해도 유지되어야 한다.
+**Content Search**
+   - Users must be able to search for content
+   - They should enter a search term and click the search button
+   - Results should be displayed as a list of matching content
+**Slideshow View**
+   - Users should be able to view recommended content in a slideshow format
+   - The slideshow should include both automatic and manual controls
+5. **Detail Page**
+   - Users should be able to view detailed information about selected content
+   - Related content should be displayed in a slideshow format
+   - Users should be able to view and play related YouTube videos
+6. **Favorite Management**
+   - Users should be able to add content to their favorites
+   - They should be able to remove content from the favorites list
+   - Favorite status should be stored in local storage and persist across sessions
 
-### 추가 사항
+### Additional Considerations
 
-- 모든 기능은 사용자 편의를 고려하여 직관적이고 쉽게 접근할 수 있어야 한다.
-- 반응형 웹 디자인을 적용하여 다양한 화면 크기에서도 잘 동작해야한다.
-- 사용자 경험을 개선하기 위해 애니메이션과 트랜지션 효과를 적절히 활용할 수 있어야 한다.
+- All features should be intuitive and easily accessible for user convenience
+- The design should be responsive, working well across various screen sizes
+- Use animations and transition effects appropriately to enhance the user experience
