@@ -49,13 +49,13 @@
 **Contents Search and Results Display**
    - Implement search input field and button
    - Display search results through API calls
-3. **Slideshow and Recommended Content**
+**Slideshow and Recommended Content**
    - Implement slideshow (automatic/manual transitions)
    - Display list of recommended content
-4. **Content Detail Page**
+**Content Detail Page**
    - Show details like ratings, genres, cast
    - Display related content (slideshow) and related YouTube videos
-5. **Favorite Add/Remove Feature**
+**Favorite Add/Remove Feature**
    - Implement favorite button for content
    - Manage state using local storage
 
@@ -70,11 +70,11 @@
 **Slideshow View**
    - Users should be able to view recommended content in a slideshow format
    - The slideshow should include both automatic and manual controls
-5. **Detail Page**
+**Detail Page**
    - Users should be able to view detailed information about selected content
    - Related content should be displayed in a slideshow format
    - Users should be able to view and play related YouTube videos
-6. **Favorite Management**
+**Favorite Management**
    - Users should be able to add content to their favorites
    - They should be able to remove content from the favorites list
    - Favorite status should be stored in local storage and persist across sessions
