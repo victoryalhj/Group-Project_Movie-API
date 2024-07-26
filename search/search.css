@@ -59,7 +59,8 @@ a.logo {
 }
 .navbar_right .favorite-icon {
   font-size: 20px;
-  font-weight: 600;
+  display: flex;
+  align-items: center;
   background-color: black;
   color: white;
   border: none;
