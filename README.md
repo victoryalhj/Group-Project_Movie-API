@@ -1,8 +1,9 @@
 # 🎬 NINE MOVIE
 
 <div align=center>
-<img src="https://github.com/user-attachments/assets/1e92ce1f-1f8e-40d5-ac0a-9d497701f345" alt="NINE MOVIE" width="600px"/>
-        
+<!-- <img src="https://github.com/user-attachments/assets/1e92ce1f-1f8e-40d5-ac0a-9d497701f345" alt="NINE MOVIE" width="600px"/> -->
+<img src="./img/Mainimage.jpg" alt="NINE MOVIE" width="600px"/>
+
 ### [🍿 NINE MOVIE Website 🍿](https://ninemovie.netlify.app/)
 </div>
 
