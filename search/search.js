@@ -37,13 +37,13 @@ const getMoviesCategory = async (event) => {
   let categoryUrl;
 
   switch (category) {
-    case "영화":
+    case "MOVIES":
       categoryUrl = `https://api.themoviedb.org/3/movie/upcoming?api_key=${API_KEY}&language=en`;
       break;
-    case "인기":
+    case "POPULAR":
       categoryUrl = `https://api.themoviedb.org/3/movie/popular?api_key=${API_KEY}&language=en`;
       break;
-    case "최신":
+    case "NEW":
       categoryUrl = `https://api.themoviedb.org/3/movie/now_playing?api_key=${API_KEY}&language=en`;
       break;
     default:

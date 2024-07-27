@@ -16,7 +16,7 @@ let scrollStates = {
 
 const getPopularMovie = async () => {
   const url = new URL(
-    `${NINE_BASE_URL}/movie/popular?language=ko-KR&api_key=${RECOMMENDATION_API_KEY}` //Change url to variable
+    `${NINE_BASE_URL}/movie/popular?language=en-US&api_key=${RECOMMENDATION_API_KEY}` //Change url to variable
   );
   console.log("popular-url", url);
 
@@ -35,7 +35,7 @@ const getPopularMovie = async () => {
 
 const getNowPlayingMovie = async () => {
   const url = new URL(
-    `${NINE_BASE_URL}/movie/now_playing?language=ko-KR&api_key=${RECOMMENDATION_API_KEY}` //Change url to variable
+    `${NINE_BASE_URL}/movie/now_playing?language=en-US&api_key=${RECOMMENDATION_API_KEY}` //Change url to variable
   );
   console.log("now-url", url);
 
@@ -52,7 +52,7 @@ const getNowPlayingMovie = async () => {
 
 const getTrendingMovie = async () => {
   const url = new URL(
-    `${NINE_BASE_URL}/trending/movie/day?language=ko-KR&api_key=${RECOMMENDATION_API_KEY}` //Change url to variable
+    `${NINE_BASE_URL}/trending/movie/day?language=en-UK&api_key=${RECOMMENDATION_API_KEY}` //Change url to variable
   );
   console.log("trending-url", url);
 
@@ -69,7 +69,7 @@ const getTrendingMovie = async () => {
 
 const getUpcomingMovie = async () => {
   const url = new URL(
-    `${NINE_BASE_URL}/movie/upcoming?language=ko-KR&api_key=${RECOMMENDATION_API_KEY}` //Change url to variable
+    `${NINE_BASE_URL}/movie/upcoming?language=en-US&api_key=${RECOMMENDATION_API_KEY}` //Change url to variable
   );
   console.log("trending-url", url);
 
@@ -86,7 +86,7 @@ const getUpcomingMovie = async () => {
 
 const getTopRatedMovie = async () => {
   const url = new URL(
-    `${NINE_BASE_URL}/movie/top_rated?language=ko-KR&api_key=${RECOMMENDATION_API_KEY}` //Change url to variable
+    `${NINE_BASE_URL}/movie/top_rated?language=en-US&api_key=${RECOMMENDATION_API_KEY}` //Change url to variable
   );
   console.log("trending-url", url);
 
